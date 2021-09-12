@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstChallnege">
-        <activity android:name=".StudentInfo"></activity>
+        <activity android:name=".AnHistoricalSketch"></activity>
+        <activity android:name=".Book" />
+        <activity android:name=".StudentInfo" />
         <activity android:name=".CreateAccount" />
         <activity android:name=".LogIn" />
         <activity android:name=".SecondActivity" />

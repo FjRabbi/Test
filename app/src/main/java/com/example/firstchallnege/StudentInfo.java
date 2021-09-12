@@ -44,7 +44,8 @@ public class StudentInfo extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(StudentInfo.this, MainActivity.class);
+                Intent intent = new Intent(StudentInfo.this, Book.class);
+                startActivity(intent);
             }
         });
 

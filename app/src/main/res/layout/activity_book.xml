@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/bookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Richest Man in Babylon"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+
+        />
+    <TextView
+        android:id="@+id/authorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="George Samuel Clason"
+        android:textSize="15sp"
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contents"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/purple_500"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/anHistoricalSketchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An Historical Sketch of Babylon"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/theManWhoDesiredGoldBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Man Who Desired Gold"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/theRichestManBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Richest Man in Babylon"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/sevenCuresForALeanPurseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seven Cures For a Lean Purse"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/firstCureBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE FIRST CURE"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/secondCureBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE SECOND CURE"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/thirdCureBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE THIRD CURE"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>
