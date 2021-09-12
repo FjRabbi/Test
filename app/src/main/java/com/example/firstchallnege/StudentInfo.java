@@ -25,7 +25,7 @@ public class StudentInfo extends AppCompatActivity {
         nameShowTxt = findViewById(R.id.nameShowTxt);
         idShowTxt = findViewById(R.id.idShowTxt);
         sectionShowTxt = findViewById(R.id.sectionShowTxt);
-        phoneShowTxt = findViewById(R.id.phoneNoTxt);
+        phoneShowTxt = findViewById(R.id.phoneShowTxt);
         closeBtn = findViewById(R.id.closeBtn);
 
         Intent intent = getIntent();
@@ -35,10 +35,10 @@ public class StudentInfo extends AppCompatActivity {
         String section = intent.getStringExtra("Id");
         String id = intent.getStringExtra("Section");
 
-        nameShowTxt.setText("Name       :"+fullName);
-        idShowTxt.setText("ID       :"+id);
-        sectionShowTxt.setText("Section       :"+section);
-        phoneShowTxt.setText("Phone      :"+phone);
+        nameShowTxt.setText("Name: "+fullName);
+        idShowTxt.setText("ID: "+id);
+        sectionShowTxt.setText("Section: "+section);
+        phoneShowTxt.setText("Phone: "+phone);
 
         closeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
