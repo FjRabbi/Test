@@ -10,10 +10,43 @@
     android:background="@color/black">
 
     <TextView
-        android:id="@+id/aHShBtn"
+        android:id="@+id/aHSHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="An Historical Sketch of Babylon"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/aHShTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In the pages of history there lives no city more glamorous than Babylon. Its very name conjures
+visions of wealth and splendor. Its treasures of gold and jewels were fabulous. One naturally pictures
+such a wealthy city as located in a suitable setting of tropical luxury, surrounded by rich natural
+resources of forests, and mines. Such was not the case. It was located beside the Euphrates River, in a
+flat, arid valley. It had no forests, no mines—not even stone for building. It was not even located upon
+a natural trade-route. The rainfall was insufficient to raise crops.
+Babylon is an outstanding example of man's ability to achieve great objectives, using whatever
+means are at his disposal. All of the resources supporting this large city were man-developed. All of its
+riches were man-made."
+
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/backBtn1st"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text=""
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Back to Contents"/>
+
 
 
 
